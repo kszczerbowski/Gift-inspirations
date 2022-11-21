@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://thumbs.dreamstime.com/b/snowy-background-illustration-scene-62743966.jpg");
+  background-size: cover;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+  max-width: 480px;
+  margin: 0px auto;
+}
+
+.inspiration {
+  width: 90%;
+  margin: 10px 5%;
+}
+
+.inspirationLink {
+  width: 100%;
+}
+
+.inspirationImage {
+  width: 100%;
+}
+
+.inspirationDescription {
+  text-align: center;
+  color:antiquewhite;
+  font-size: 23px;
+}
+
+.nonActiveLink {
+  cursor: auto;
+}
+
+.activeLink {
+border: solid rgb(14, 64, 202) 3px;
+}
